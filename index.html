@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>weather app</title>
+</head>
+<body>
+    
+    <div class="card">
+        
+        <div class="search">
+            <input type="text" placeholder="Enter A City Name" spellcheck="false">
+            <button><img src="icons/search.png" ></button>
+        </div>
+        <div class="notification"><p>Invalid City Name</p></div>
+        
+        <div class="weather">
+
+            <div class="weather-icon"><img src="icons/clouds.png"></div>
+            <div class="temperature-value"><p>-12<span>c</span></p></div>
+            <div class="location"><p>kigali<span></span></p></div>
+
+            <div class="details">
+                <div class="col">
+                    <img src="icons/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="icons/cloud.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
